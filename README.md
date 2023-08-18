@@ -19,7 +19,7 @@
 ## PROJECTS
 ### Cyberbullying Tweets NLP Analysis  [Deploy]	| August 
 
-  -Developed algorithms using natural language processing and deep learning models for predictive cyberbullying tweets, had the ability to create and deploy predictive models and achieved 72% accuracy score. 
+Developed algorithms using natural language processing and deep learning models for predictive cyberbullying tweets, had the ability to create and deploy predictive models and achieved 72% accuracy score. 
   
 *Technology / Tools: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn, TensorFlow, Keras, Streamlit*
 
