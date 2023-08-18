@@ -17,20 +17,28 @@
 
 
 ## PROJECTS
-### Cyberbullying Tweets NLP Analysis  [Deploy]	| August 2023
-Developed algorithms using natural language processing and deep learning models for predictive cyberbullying tweets, had the ability to create and deploy predictive models and achieved 72% accuracy score. 
+### Cyberbullying Tweets NLP Analysis  [Deploy]	| August 
+
+  -Developed algorithms using natural language processing and deep learning models for predictive cyberbullying tweets, had the ability to create and deploy predictive models and achieved 72% accuracy score. 
+  
 *Technology / Tools: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn, TensorFlow, Keras, Streamlit*
 
 ### Company Customer Churn Prediction [Deploy]	| July 2023
+
 Developed  a  machine  learning  project  utilizing  Artificial  Neural  Network  to  forecast  customer  churn  for  a 
 company, based on historical customer data, and achieved a 90% accuracy score
+
 *Technology / Tools: Python,  Pandas,  NumPy,  Seaborn,  Matplotlib,  SciPy,  Scikit-Learn,  Feature-Engine,  TensorFlow,  Keras, Streamlit*
 
 ### Airline Passengers' Satisfaction Prediction [Deploy]	| July  2023
 Developed a machine learning project utilizing classification supervised learning to forecast airline passengers’ satisfaction for a company, base on historical passengers data, and achieved a 91% accuracy score
+
 *Technology / Tools: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn, TensorFlow, Keras, Streamlit.*
 
+
 ### Global Suicide Rate Analysis[Visualisation]	| June  2023
-Designed and analyzed the global suicide rate utilizing  using hypothesis testing with statistical methods such as t-tests, ANOVA, and chi-square tests, based on historical global suicide rate data.
+Designed and analyzed the global suicide rate utilizing  using hypothesis testing with statistical methods such as t-tests, ANOVA, and chi-square tests, based on historical global suicide rate data
+
 *Technology / Tools:  Tableau, Python, Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Statsmodels, studiolooker.*
+
 
