@@ -17,7 +17,7 @@
 
 
 ## PROJECTS
-### Cyberbullying Tweets NLP Analysis  [Deploy]	| August 
+### Cyberbullying Tweets NLP Analysis  [Deploy]	| August 2023
 
 Developed algorithms using natural language processing and deep learning models for predictive cyberbullying tweets, had the ability to create and deploy predictive models and achieved 72% accuracy score. 
   
