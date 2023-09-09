@@ -1,6 +1,6 @@
 # Data Scientist
 
-#### Technical Skills:
+## Technical Skills:
   - General skills: Exploratory Data Analysis, Time Series Analysis, Hypothesis Testing, ETL, Machine Learning, Deep Learning
   - Programming Language: Python, SQL.
   - Visualization Tools: Tableau, Looker Studio.
