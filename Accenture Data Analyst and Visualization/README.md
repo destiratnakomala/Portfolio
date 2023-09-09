@@ -8,4 +8,4 @@ This is the Accenture Data Analytics virtual experience project with Forage. The
 
 3- Analysis of the top 5 popular categories of content
 
-## In short, the client wanted to see “An analysis of their content categories showing the top 5 categories with the largest popularity”.
+#### In short, the client wanted to see “An analysis of their content categories showing the top 5 categories with the largest popularity”.
