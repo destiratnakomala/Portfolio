@@ -42,6 +42,7 @@ Designed and analyzed the global suicide rate utilizing  using hypothesis testin
 *Technology / Tools:  Tableau, Python, Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Statsmodels, studiolooker.*
 
 ### Term Deposit for Bank Marketing Prediction
+Based on the modeling that has been carried out, the XGBoosting tuning model is the best model for predicting whether a customer will subscribe to a term deposit or not. With an accuracy rate of up to 88%, a classification rate of 89%
 
 *Technology / Tools: Python,  Pandas,  NumPy,  Seaborn,  Matplotlib,  SciPy,  Scikit-Learn,  Feature-Engine,  TensorFlow, huggingface Keras, Streamlit*
 
