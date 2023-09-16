@@ -11,9 +11,9 @@
 
 ## Education
 - Hacktiv8 Bootcamp	Jakarta, Indonesia
-    - Data Science Program. Score: A(89.48%) | June 2023 - August 2023
+*Data Science Program. Score: A(89.48%)* | June 2023 - August 2023
 - Telkom University	Bandung Indonesia
-    - Bachelor of Physics Engineering | July 2014– August 2021
+*Bachelor of Physics Engineering* | July 2014– August 2021
 
 
 ## PROJECTS
@@ -41,7 +41,7 @@ Designed and analyzed the global suicide rate utilizing  using hypothesis testin
 
 *Technology / Tools:  Tableau, Python, Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Statsmodels, studiolooker.*
 
-### Term Deposit Bank Marketing Prediction
+### Term Deposit for Bank Marketing Prediction
 
 *Technology / Tools: Python,  Pandas,  NumPy,  Seaborn,  Matplotlib,  SciPy,  Scikit-Learn,  Feature-Engine,  TensorFlow, huggingface Keras, Streamlit*
 
