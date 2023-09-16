@@ -41,4 +41,7 @@ Designed and analyzed the global suicide rate utilizing  using hypothesis testin
 
 *Technology / Tools:  Tableau, Python, Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Statsmodels, studiolooker.*
 
+### Term Deposit Bank Marketing Prediction
+
+*Technology / Tools: Python,  Pandas,  NumPy,  Seaborn,  Matplotlib,  SciPy,  Scikit-Learn,  Feature-Engine,  TensorFlow, huggingface Keras, Streamlit*
 
