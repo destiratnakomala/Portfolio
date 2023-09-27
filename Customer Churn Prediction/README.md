@@ -4,10 +4,11 @@
 ##  Information
 Dataset ini berisi informasi mengenai:
 
-resiko pelanggan 'churn_risk_score'
-faktor demografik 'age', 'gender'
-waktu 'joined_through_referral', 'last_visit_time',
-Perilaku Pelanggan churn 'user_id', 'region_category', 'membership_category', 'joining_date', 'preferred_offer_types', 'medium_of_operation', 'internet_option', 'days_since_last_login', 'avg_time_spent', 'avg_transaction_value', 'avg_frequency_login_days', 'points_in_wallet', 'used_special_discount', 'offer_application_preference', 'past_complaint', 'complaint_status', 'feedback',
+- resiko pelanggan:  'churn_risk_score'
+- faktor demografik:  'age', 'gender'
+- waktu:  'joined_through_referral', 'last_visit_time',
+- Perilaku Pelanggan churn:  'user_id', 'region_category', 'membership_category', 'joining_date', 'preferred_offer_types', 'medium_of_operation', 'internet_option', 'days_since_last_login', 'avg_time_spent', 'avg_transaction_value', 'avg_frequency_login_days', 'points_in_wallet', 'used_special_discount', 'offer_application_preference', 'past_complaint', 'complaint_status', 'feedback'
+  
 Skor resiko churn pelanggan atau churn_risk_score adalah status skor yang diberikan oleh perusahaan untuk mengetahui pelanggan mana yang akan tidak churn (0) dan yang akan churn (1) Jika pelanggan berpotensi untuk churn, maka perusahaan harus membuat strategi agar pelanggan tersebut tidak churn.
 
 ## Objective
