@@ -10,5 +10,5 @@ Dataset ini berisi informasi mengenai:
   
 Kepuasan pelanggan atau Satisfaction adalah status yang diberikan oleh penumpang maskapai penerbangan yang terdiri dari tidak puas (0: dissatisfied dan puas (1:satisfied). jika penumpang memberikan nilai 0, maka, perlu adanya perubahan yang signifikan pada kualitas pelayanan maskapai tersebut.
 
-Objective
+# Objective
 Sebuah maskapai penerbangan ingin meningkatkan kualitas pelayanan untuk meningkatkan jumlah penumpang dan mempromosikan jasa penerbangan ke ranah yang lebih besar. Namun, perusahaan tersebut kesulitan untuk memfokuskan pelayanan mana yang harus ditingkatkan untuk mencapai hal tersebut. Oleh karena itu, dibutuhkan pemodelan prediksi kepuasan penumpang maskapai penerbangan, untuk mengetahui apakah pelayanan yang telah diberikan kepada penumpang sudah baik atau ada yang harus ditingkatkan lagi. Pemodelan Logistic Regression, KKN, Decision tree, Random Forest dan SVC digunakan guna mendapatkan hasil prediksi dengan recall dan tingkat akurasi diatas 80%.
