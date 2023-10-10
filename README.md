@@ -46,5 +46,9 @@ Based on the modeling that has been carried out, the XGBoosting tuning model is 
 
 *Technology / Tools: Python,  Pandas,  NumPy,  Seaborn,  Matplotlib,  SciPy,  Scikit-Learn,  Feature-Engine,  TensorFlow, huggingface Keras, Streamlit*
 
-### ASHRAE Thermal Comfort Prediction
+### TheLook E-Commerce Sales Behaviour
+
+TheLook's CEO plans to increase sales in the 4th quarter by targeting $250,000 due to mass celebrations like Christmas and New Year. Product categories like intimates, hoodies, sweatshirts, and shorts will be produced to increase sales.
+
+*Technology / Tools: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn.*
 
