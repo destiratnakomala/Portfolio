@@ -35,6 +35,11 @@ Developed a machine learning project utilizing classification supervised learnin
 
 *Technology / Tools: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-Learn, TensorFlow, Keras, Streamlit.*
 
+### Credit Card Customer Segmentation | August  2023
+Developed a clustering segmentation customer of credit card based on the financial behaviour. By using K-Means method, it was found that there are 4 clusters with customers' characteristics based on its segments. 
+
+*Technology / Tools: Python, Pandas, NumPy, Seaborn, Matplotlib, K-Means, Scikit-Learn, TensorFlow, Keras, Streamlit.*
+
 
 ### Global Suicide Rate Analysis	| June  2023
 Designed and analyzed the global suicide rate utilizing  using hypothesis testing with statistical methods such as t-tests, ANOVA, and chi-square tests, based on historical global suicide rate data
