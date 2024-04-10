@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Scientist Projects
 
 ## Technical Skills:
   - General skills: Exploratory Data Analysis, Time Series Analysis, Hypothesis Testing, ETL, Machine Learning, Deep Learning
