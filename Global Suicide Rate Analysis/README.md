@@ -1,21 +1,22 @@
 [➡️➡️➡️ DASHBOARD p0-ftds020-rmt-m1-destiratnakomala](https://lookerstudio.google.com/reporting/902f1672-693e-42d2-8db3-909953cbda9f)
 
-## ANALISIS PERILAKU DAN TINGKAT KASUS BUNUH DIRI GLOBAL PADA TAHUN 2001-2020
+## ANALYSIS OF BEHAVIOR AND GLOBAL SUICIDE RATES FROM 2001 TO 2020
 
 ### Problem Statements
-Persekutuan kementerian kesehatan negara ingin membuat kebijakan dan menanggulangi kasus bunuh diri masyarakat global yang semakin merajai kehidupan manusia di berbagai belahan dunia.
+The health ministry of various countries wants to create policies and tackle the growing global suicide rates impacting people worldwide.
 
-Namun, diperlukan informasi data mengenai kasus-kasus bunuh diri secara global sebagai acuan pembuatan kebijakan tersebut.
+However, data on global suicide cases is needed as a reference for making these policies.
 
-Oleh karena itu, salah satu kementerian kesehatan ingin mencari informasi mengenai perilaku dan tingkat kasus bunuh diri di dunia untuk periode 2001 hingga 2020 agar dapat membuat kebijakan sesuai dengan informasi kasus bunuh diri. Hal ini diharapkan dapat membantu orang-orang yang berpotensi melakukan bunuh diri dan dapat dilakukan pencegahan sebelum terlambat.
+Therefore, one of the health ministries seeks to gather information on the behavior and suicide rates worldwide from 2001 to 2020 to develop policies based on this data. This is aimed at helping individuals at risk of suicide and preventing it before it is too late.
 
-Berikut adalah problem statement untuk milestone ini:
-- Apakah kasus bunuh diri meningkat setiap tahunnya?
-- Berapa persen rata-rata kasus bunuh diri untuk tiap masing-masing faktor (umur, jenis kelamin, besar GDP)?
-- Siapa yang paling rentan melakukan bunuh diri berdasarkan usia dan jenis kelamin?
-- Apakah ada hubungan antara kasus bunuh diri dengan GDP suatu negara?
+Here are the problem statements for this milestone:
+- Has the number of suicide cases increased annually?
+- What is the average percentage of suicide cases for each factor (age, gender, GDP)?
+- Who is most at risk of suicide based on age and gender?
+- Is there a relationship between suicide rates and a country's GDP?
 
 ## Repository Structure
+
 
 ```
 Global_Suicide_Rate_Analysis/
