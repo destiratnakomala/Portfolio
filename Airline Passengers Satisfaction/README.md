@@ -39,7 +39,7 @@ Aiming to improve service quality and increase passenger numbers, the airline se
 
 ## Repository Structure
 
-
+```
 Airline_Passenger_Satisfaction/
 │
 ├── deployment/
@@ -55,7 +55,7 @@ Airline_Passenger_Satisfaction/
 ├── README.md                      # Project description and instructions
 │
 └── url.txt                        # Additional URLs or references
-
+```
 ## Steps to Follow
 
 ### 1. Data Preprocessing
