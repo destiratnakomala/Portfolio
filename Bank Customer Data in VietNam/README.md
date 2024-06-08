@@ -1,92 +1,61 @@
+# Bank Marketing Term Deposit Prediction
 
-# <center> <b> Analisis Marketing Bank untuk Memprediksi klien yang akan Subscribe Deposit Berjangka<br>
+## Overview
+This project focuses on predicting whether bank customers in Vietnam will subscribe to a term deposit product. By analyzing customer behavior and demographic information, the goal is to develop a predictive model that can identify potential subscribers, enabling the bank to target its marketing efforts more effectively.
 
-Dataset : `Bank Customer Data in VietNam`
+## Dataset Information
+The dataset comprises marketing campaign data from a bank in Vietnam, with 42,639 rows and 16 columns. The target feature (`term_deposit`) indicates whether a client will subscribe to a term deposit product (0 for not subscribing and 1 for subscribing). 
 
-HuggingFace: [`Bank-Marketing-Term-Deposit-prediction`](https://huggingface.co/spaces/destiratnakomala/Bank-Marketing-Term-Deposit)
+### Data Structure:
+The dataset has the following structure:
 
-Model 1: [Main Model](https://github.com/destiratnakomala/Final-Project-FTDS-020/blob/main/Bank-Marketing-Term-Deposit/01_Main_desti_ratna_komala.ipynb)
+- **ID**: Client ID
+- **age**: Age of the client
+- **job**: Job type of the client
+- **marital**: Marital status of the client
+- **education**: Education level of the client
+- **default**: Whether the client has defaulted on credit card payments
+- **housing**: Whether the client has a housing loan
+- **loan**: Whether the client has a personal loan
+- **balance**: Account balance of the client
+- **month**: Month of the last contact with the client
+- **day**: Day of the last contact with the client
+- **duration**: Duration of the last contact with the client (in seconds)
+- **campaign**: Number of contacts performed during the marketing campaign
+- **pdays**: Number of days since the client was last contacted by the marketing team
+- **previous**: Number of contacts performed before the marketing campaign
+- **term_deposit**: Whether the client will subscribe to a term deposit (0 for not subscribing, 1 for subscribing)
 
-Model 2: [Model Neural Network](https://github.com/destiratnakomala/Final-Project-FTDS-020/blob/main/Bank-Marketing-Term-Deposit/02_sub_desti_ratna_komala.ipynb)
+## Objective
+The objective of this project is to maximize marketing efforts for a term deposit product by accurately predicting customer subscriptions. By leveraging machine learning techniques, the bank can identify key factors that influence subscription decisions and tailor its marketing strategies accordingly.
 
+## Conclusion
+Based on the modeling performed, the tuned XGBoosting model emerged as the best performer in predicting customer subscriptions to term deposits. With an accuracy rate of up to 88%, a classification rate of 89%, and a very low prediction error rate of 7%, the model demonstrates promising results.
 
-### Objective
-Sebuah bank di VietNam ingin memaksimalkan biaya pemasaran untuk produk deposito berjangka. Namun, pihak bank kesulitan dalam menentukan klien mana yang akan berlangganan pada produk tersebut. Oleh karena itu, dibutuhkan pemodelan untuk mengindentifikasi hal tersebut berdasarkan perilaku dan informasi data diri masing-masing pelanggan agar upaya pemasaran dapat lebih terarah dan efisien.
+Key features such as housing loan status and personal loan status were identified as the most important indicators of whether a client will subscribe to a term deposit. Additionally, factors such as job type, marital status, and duration of marketing team contact played significant roles in determining subscription likelihood.
 
-### Dataset Information
+### Marketing Strategy Recommendations:
 
-Dataset ini merupakan pemasaran yang dilakukan secara langsung via telepon (phone calls) oleh Bank VietNam, terdiri dari 42639 baris dan 16 kolom. Fitur target (term_deposit) menunjukkan apakah seorang klien akan berlangganan pada produk deposito berjangka atau tidak. Fitur target tersebut bernilai **0 : tidak berlangganan (not_subscribe)** dan **1 : berlangganan (subscribe)**.
+1. **Targeted Surveys**: Conduct in-depth surveys or direct inquiries to understand why clients join or leave the bank. Offer rewards for completing surveys to encourage participation and gather valuable insights for business strategy.
 
-Berikut adalah deskripsi dari masing-masing fitur pada dataset `Bank Customer in VietNam`
+2. **Demographic-Based Offers**: Tailor marketing offers based on public information such as product trends and consumer income per demographic. Offer trending products to clients with high consumerism levels and provide bonuses related to household products for married clients.
 
-|Feature|Deskripsi|
-|------|-------|
-|ID|Nomor id client bank|
-|age|Usia client bank|
-|job|Jenis pekerjaan client bank|
-|marital|status pernikahan client bank|
-|education|tingkat pendidikan client bank||
-|default|status apakah client bank pernah gagal bayar (default) kartu kredit?||
-|housing|status apakah client bank mempunyai cicilan rumah?||
-|loan|status apakah client bank mempunyai hutang pribadi?||
-|balance|Jumlah saldo yang dimiliki client bank||
-|month|Bulan terakhir client bank dihubungi|
-|day|hari terakhir client bank dihubungi|
-|duration|durasi kontak terakhir bank terhadap client|
-|campaign| jumlah kontak yang telah dilakukan selama melakukan kampanye marketing|
-|pdays|jumlah hari kontak terakhir setelah client dihubungi oleh tim marketing bank
-|previous|jumlah kontak yang dilakukan sebelum tim marketing bank menghubungi client ini
-|term_deposit|Status apakah client akan berlangganan tabungan berjangka (term_deposit) atau tidak?
+3. **Enhanced Customer Service**: Prioritize excellent customer service to retain clients and minimize churn. Monitor client progress and offer beneficial solutions to address financial concerns.
 
+4. **Other Tactics**:
+   - Collaborate with other companies/banks.
+   - Customize marketing based on client shopping behavior.
+   - Utilize online/onsite/telephone marketing channels.
+   - Highlight success stories of satisfied clients.
 
+## Cloning the Repository
+To clone this repository and run the project locally, follow these steps:
 
-Sehingga, dapat dikategorikan manjadi:
-
-- **Data Klien Bank**
-
-         'ID', 'age', 'marital', 'education', 'job', 'default', 'housing', 'loan', 'balance'
-
-
-- **Kontak terakhir klien terhadap tim pemasaran**
-
-       'day','month','duration','pdays', 'previous', 'campaign'
-
-
-
-- **Status Deposito Berjangka**
-        'term_deposit'
-
-# Kesimpulan 
-
-**Berdasarkan pemodelan** yang telah dilakukan, model tuning XGBoosting merupakan model terbaik dalam memprediksi apakah customer akan berlangganan deposito berjangka atau tidak. Dengan tingkat akurasi hingga 88%, tingkat klasifikasi sebesar 89% dan tingkat kesalahan prediksi yang sangat rendah sebesar 7%.
-
-**Berdasarkan fiturnya**, klien yang memiliki cicilan rumah (**housing loan**) dan hutang pribadi(**personal loan**) menjadi indikator paling penting apakah seorang klien akan berlangganan deposito berjangka atau tidak.
-Selain itu, pekerjaan **jobs**, status pernikahan **marital** dan durasi tim marketing memasarkan produk bank kepada klien **duration** menjadi faktor penting dalam menentukan apakah seorang klien akan berlangganan deposito berjangka atau tidak.
-
-
-**Rekomendasi Strategi Pemasaran:**
-
-- Melakukan Survei Target
-    
-  Menanyakan secara langsung/melakukan survei mendalam kepada klien yang telah bergabung dan yang akan bergabung dengan bank Anda. Berikan hadiah/kartu voucher sebagai reward telah mengisi survei dengan lengkap. Pastikan seluruh klien mengisi alasan mereka bergabung dengan bank Anda dan alasan mengapa mereka meninggalkan bank mereka sebelumnya. Berdasarkan hal tersebut, buatlah strategi bisnis yang sesuai dengan kebutuhan klien.
-
-- Memberikan Penawaran sesuai data demografik
-
-  Menggunakan informasi publik seperti tren produk, pendapatan per demografik, dan tingkat konsumerisasi pada lingkungan tersebut. Tawarkan produk-produk yang sedang trending pada klien dengan tingkat konsumerisasi yang tinggi. Untuk klien yang sudah berkeluarga, tawarkan bonus-bonus yang berhubungan dengan produk rumah tangga. Target utama pemasaran sebaiknya untuk klien dengan nilai `balance` yang tinggi. Karena semakin besar saldo yang dimiliki klien, semakin besar kemungkinan klien tersebut akan berlangganan deposito berjangka.
-
-- Tingkatkan Kualitas Customer Service
-
-  Customer service merupakan wajah yang mencerminkan kualitas suatu bank. Kehilangan klien akan lebih mahal ketimbang mempertahankan klien, oleh karena itu pemberian pelayanan terbaik dari pihak bank sangat perlu diutamakan. Buatlah strategi bagaimana supaya orang-orang yang sudah menjadi klien dapat tetap bertahan dan setia dengan bank Anda. Variasikan layanan yang ditawarkan kepada klien. Pastikan selalu mengecek perkembangan klien Anda dan berikan solusi yang menguntungkan kedua belah pihak jika klien tersebut memiliki masalah finansial.
-
-- Taktik lainnya:
-  - Bekerjasama dengan perusahaan/bank lain
-  - Pemasaran sebaiknya dilakukan berdasarkan perilaku belanja klien
-  - Lakukan pemasaran melalui medio online/onsite/via telepon
-  - Highlight cerita-certa sukses klien
-  
-
-
-
-
-
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command:
+   ```
+   git clone <repository_url>
+   ```
+   Replace `<repository_url>` with the URL of this repository.
 
