@@ -1,6 +1,3 @@
-Sure, here is the complete content for your `README.md` file:
-
-```markdown
 # Airline Passenger Satisfaction Prediction
 
 ## Project Description
@@ -58,7 +55,6 @@ Airline_Passenger_Satisfaction/
 ├── README.md                      # Project description and instructions
 │
 └── url.txt                        # Additional URLs or references
-```
 
 ## Steps to Follow
 
