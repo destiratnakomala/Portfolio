@@ -43,18 +43,21 @@ Aiming to improve service quality and increase passenger numbers, the airline se
 Airline_Passenger_Satisfaction/
 │
 ├── deployment/
-│   ├── model_deployment.py        # Script for model deployment (optional)
-│   └── requirements.txt           # Dependencies for deployment
+│ ├── airline.jpg # Image for the application (optional)
+│ ├── app.py # streamlit application for model deployment
+│ ├── eda.py # Script for exploratory data analysis
+│ ├── prediction.py # Script for making predictions
+│ └── requirements.txt # Dependencies for deployment
 │
-├── Airline_Passengers_Satisfaction.ipynb  # Main Jupyter notebook for analysis and modeling
+├── Airline_Passengers_Satisfaction.ipynb # Main Jupyter notebook for analysis and modeling
 │
-├── INVISTICO.csv                  # Dataset file
+├── INVISTICO.csv # Dataset file
 │
-├── P2FP_desti_ratna_komala.ipynb  # Additional notebook (if needed)
+├── P2FP_desti_ratna_komala.ipynb # Additional notebook (if needed)
 │
-├── README.md                      # Project description and instructions
+├── README.md # Project description and instructions
 │
-└── url.txt                        # Additional URLs or references
+└── url.txt # Additional URLs or references
 ```
 ## Steps to Follow
 
@@ -122,4 +125,3 @@ This project aims to build a reliable prediction model to identify key factors i
 - `Update README.md with project details.`
 ```
 
-This `README.md` provides a comprehensive overview of the project, the dataset, objectives, repository structure, steps to run the project, evaluation metrics, conclusions, future work, and example commit messages. Feel free to customize the repository name and URLs as needed.
