@@ -43,7 +43,7 @@ The company aims to minimize the risk of customer churn by building a classifica
 ```
 Customer_Churn_Prediction/
 │
-├── app.py                       # Flask application for model deployment
+├── app.py                       # streamlit application for model deployment
 │
 ├── churn_best_model.h5          # Trained model saved in HDF5 format
 │
